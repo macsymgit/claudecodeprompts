@@ -11,9 +11,6 @@
 ### 🎨 设计可视化类  
 - **[Obsidian Canvas](./prompts/visualization/obsidian-canvas/)** - 使用Obsidian Canvas绘制功能框架图
 
-### 📚 教程指南类
-- **[前端开发教程](./prompts/tutorials/frontend/)** - Next.js技术栈配置指南
-
 ## 📂 目录结构
 
 ```
@@ -25,10 +22,8 @@ prompts/
 ├── kiro/                # Kiro 工作流
 │   ├── spec.md          # 英文规范
 │   └── spec_zh.md       # 中文规范
-├── visualization/       # 可视化工具
-│   └── obsidian-canvas/ # Obsidian Canvas图表
-└── tutorials/           # 教程指南
-    └── frontend/        # 前端开发教程
+└── visualization/       # 可视化工具
+    └── obsidian-canvas/ # Obsidian Canvas图表
 ```
 
 ## 🌟 精选推荐
@@ -36,7 +31,6 @@ prompts/
 ### 新手必读
 - [Claude本地开发规范](./prompts/claude/CLAUDE.local.md) - 提升开发协作效率
 - [Kiro工作流规范](./prompts/kiro/spec_zh.md) - 结构化的需求→设计→实施流程
-- [Next.js 15 + Tailwind 4 + Shadcn UI](./prompts/tutorials/frontend/nextjs15-tailwind4-shadcnui/) - 最新版本技术栈配置指南
 
 ### 进阶工具
 - [Memory Network Builder](./prompts/claude/agents/memory-network-builder.md) - 构建知识网络的Agent
@@ -45,11 +39,10 @@ prompts/
 
 ## 👤 联系作者
 
+- **微信**: kingkongshot
 - **推特 (Twitter/X)**: [@Naaaarukaru](https://x.com/Naaaarukaru)
 - **小红书**: 王乔治 (ID: 9538421460)
-- **微信**: kingkongshot
 
-欢迎关注交流，分享更多AI协作开发经验！
 
 ## 📄 许可证
 
