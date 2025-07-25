@@ -28,13 +28,17 @@ prompts/
 
 ## 🌟 精选推荐
 
-### 新手必读
+### 开发规范
 - [Claude本地开发规范](./prompts/claude/CLAUDE.local.md) - 提升开发协作效率
 - [Kiro工作流规范](./prompts/kiro/spec_zh.md) - 结构化的需求→设计→实施流程
 
-### 进阶工具
+### AI Agent 配置
 - [Memory Network Builder](./prompts/claude/agents/memory-network-builder.md) - 构建知识网络的Agent
+
+### 自定义命令
 - [Commit-As-Prompt](./prompts/claude/commands/commit-as-prompt.md) - 将Git提交转化为结构化Prompt
+
+### 可视化工具
 - [功能框架图绘制](./prompts/visualization/obsidian-canvas/使用%20Obsidian%20Canvas%20绘制功能框架图.md) - 可视化系统设计
 
 ## 👤 联系作者
