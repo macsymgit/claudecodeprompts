@@ -5,7 +5,8 @@
 ## 📋 快速导航
 
 ### 🛠️ 开发工具类
-- **[Claude Code](./prompts/development/claude-code/)** - Claude Code开发规范与最佳实践
+- **[Claude](./prompts/claude/)** - Claude AI 开发规范、Agent配置与自定义命令
+- **[Kiro](./prompts/kiro/)** - Kiro 三阶段工作流规范（需求→设计→实施）
 
 ### 🎨 设计可视化类  
 - **[Obsidian Canvas](./prompts/visualization/obsidian-canvas/)** - 使用Obsidian Canvas绘制功能框架图
@@ -17,8 +18,13 @@
 
 ```
 prompts/
-├── development/          # 开发相关
-│   └── claude-code/     # Claude Code开发规范
+├── claude/              # Claude AI 相关
+│   ├── CLAUDE.local.md  # 本地开发规范
+│   ├── agents/          # Agent 配置
+│   └── commands/        # 自定义命令
+├── kiro/                # Kiro 工作流
+│   ├── spec.md          # 英文规范
+│   └── spec_zh.md       # 中文规范
 ├── visualization/       # 可视化工具
 │   └── obsidian-canvas/ # Obsidian Canvas图表
 └── tutorials/           # 教程指南
@@ -28,11 +34,22 @@ prompts/
 ## 🌟 精选推荐
 
 ### 新手必读
-- [Claude Code开发规范](./prompts/development/claude-code/CLAUDE.local.md) - 提升开发协作效率
+- [Claude本地开发规范](./prompts/claude/CLAUDE.local.md) - 提升开发协作效率
+- [Kiro工作流规范](./prompts/kiro/spec_zh.md) - 结构化的需求→设计→实施流程
 - [Next.js 15 + Tailwind 4 + Shadcn UI](./prompts/tutorials/frontend/nextjs15-tailwind4-shadcnui/) - 最新版本技术栈配置指南
 
 ### 进阶工具
+- [Memory Network Builder](./prompts/claude/agents/memory-network-builder.md) - 构建知识网络的Agent
+- [Commit-As-Prompt](./prompts/claude/commands/commit-as-prompt.md) - 将Git提交转化为结构化Prompt
 - [功能框架图绘制](./prompts/visualization/obsidian-canvas/使用%20Obsidian%20Canvas%20绘制功能框架图.md) - 可视化系统设计
+
+## 👤 联系作者
+
+- **推特 (Twitter/X)**: [@Naaaarukaru](https://x.com/Naaaarukaru)
+- **小红书**: 王乔治 (ID: 9538421460)
+- **微信**: kingkongshot
+
+欢迎关注交流，分享更多AI协作开发经验！
 
 ## 📄 许可证
 
