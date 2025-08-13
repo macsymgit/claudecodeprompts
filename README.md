@@ -29,11 +29,12 @@ prompts/
 ## 🌟 精选推荐
 
 ### 开发规范
-- [Claude引导词](./prompts/claude/CLAUDE.local.md) - 提升开发协作效率
+- [Claude本地开发规范](./prompts/claude/CLAUDE.local.md) - Linus Torvalds风格的代码审查与架构设计
 - [Kiro工作流](./prompts/kiro/spec_zh.md) - 结构化的需求→设计→实施流程
 
 ### Claude Code Agent 配置
 - [Memory Network Builder](./prompts/claude/agents/memory-network-builder.md) - 构建知识网络的Agent
+- [Library Usage Researcher](./prompts/claude/agents/library-usage-researcher.md) - 系统研究库和框架使用方法的Agent
 
 ### 自定义命令
 - [Commit-As-Prompt](./prompts/claude/commands/commit-as-prompt.md) - 将Git提交转化为结构化Prompt
