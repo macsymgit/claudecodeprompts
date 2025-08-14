@@ -2,3 +2,4 @@
 /temp
 .claude  
 .backup
+push-to-github.sh
