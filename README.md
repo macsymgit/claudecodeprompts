@@ -56,4 +56,4 @@ prompts/
 
 ## 📄 许可证
 
-本仓库采用 MIT 许可证，详见 [LICENSE](./LICENSE) 文件。
+本仓库采用 Apache License 许可证，详见 [LICENSE](./LICENSE) 文件。
