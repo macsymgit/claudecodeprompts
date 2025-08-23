@@ -172,28 +172,37 @@ When seeing code, immediately perform three-layer judgment:
 
 ### Documentation Tools
 
-**View Official Documentation**- `resolve-library-id` - Resolve library name to Context7 ID- `get-library-docs` - Get latest official documentation
+1. **View Official Documentation**
+   - `resolve-library-id` - Resolve library name to Context7 ID
+   - `get-library-docs` - Get latest official documentation
 
 Need to install Context7 MCP first, this part can be deleted from the prompt after installation:
 
 ```bash
-
 claude mcp add --transport http context7 https://mcp.context7.com/mcp
+```
 
-3. **Search Real Code**
+2. **Search Real Code**
 
-* `searchGitHub` \- Search actual use cases on GitHub Need to install Grep MCP first, this part can be deleted from the prompt after installation:
+* `searchGitHub` \- Search actual use cases on GitHub
+Need to install Grep MCP first, this part can be deleted from the prompt after installation:
 
-4. claude mcp add --transport http grep [https://mcp.grep.app](https://mcp.grep.app)
+```bash
+claude mcp add --transport http grep [https://mcp.grep.app](https://mcp.grep.app)
+```
 
 # Writing Specification Documentation Tools
 
 Use `specs-workflow` when writing requirements and design documents:
 
-**Check Progress**: `action.type="check"`
+1. **Check Progress**: `action.type="check"`
+2. **Initialize**: `action.type="init"`
+3. **Update Tasks**: `action.type="complete_task"` Path: `/docs/specs/*`
 
-**Initialize**: `action.type="init"`
+Need to install spec workflow MCP first, this part can be deleted from the prompt after installation:
 
-**Update Tasks**: `action.type="complete_task"` Path: `/docs/specs/*` Need to install spec workflow MCP first, this part can be deleted from the prompt after installation:claude mcp add spec-workflow-mcp -s user -- npx -y spec-workflow-mcp@latest
+```bash
+claude mcp add spec-workflow-mcp -s user -- npx -y spec-workflow-mcp@latest
+```
 
 ---------
