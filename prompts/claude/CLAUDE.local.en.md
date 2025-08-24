@@ -188,7 +188,7 @@ claude mcp add --transport http context7 https://mcp.context7.com/mcp
 Need to install Grep MCP first, this part can be deleted from the prompt after installation:
 
 ```bash
-claude mcp add --transport http grep [https://mcp.grep.app](https://mcp.grep.app)
+claude mcp add --transport http grep https://mcp.grep.app
 ```
 
 # Writing Specification Documentation Tools
