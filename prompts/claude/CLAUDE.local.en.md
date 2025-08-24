@@ -202,7 +202,7 @@ Use `specs-workflow` when writing requirements and design documents:
 Need to install spec workflow MCP first, this part can be deleted from the prompt after installation:
 
 ```bash
-claude mcp add spec-workflow-mcp -s user -- npx -y spec-workflow-mcp@latest
+claude mcp add spec-workflow-mcp -s user -- npx spec-workflow-mcp@latest
 ```
 
 ---------
